@@ -28,7 +28,7 @@ const Matches = () => {
     'Volleyball',
     'Weight Lifting',
   ];
-  const [selectedDate, setSelectedDate] = useState('2023-10-13'); 
+  const [selectedDate, setSelectedDate] = useState('2024-10-18'); 
   const [selectedSport, setSelectedSport] = useState('All');
   const handleDateChange = (event) => {
     setSelectedDate(event.target.value);
@@ -142,9 +142,9 @@ const Matches = () => {
                 value={selectedDate}
                 onChange={handleDateChange}
               >
-                <option value="2023-10-13">October 13, 2023</option>
-                <option value="2023-10-14">October 14, 2023</option>
-                <option value="2023-10-15">October 15, 2023 </option>
+                <option value="2023-10-13">October 18, 2024</option>
+                <option value="2023-10-14">October 19, 2024</option>
+                <option value="2023-10-15">October 20, 2024 </option>
                 <option value="All">All</option>
               </select>
               {/* <p>Selected Date: {selectedDate}</p> */}
